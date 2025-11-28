@@ -17,33 +17,57 @@
             <a class="nav-link dropdown-toggle" href="index.html">首页</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarPages" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">产品与服务</a>
+            <a class="nav-link dropdown-toggle" id="navbarPages" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">方案与服务</a>
+            
             <div class="dropdown-menu dropdown-menu-lg" aria-labelledby="navbarPages">
               <div class="row no-gutters">
                 <div class="col-4 col-lg-4">
-                  <h6 class="dropdown-header mb-5">企业中台</h6>
+                  <h6 class="dropdown-header mb-5">解决方案</h6>
                   <a class="dropdown-item mb-3" href="case-business.html">业务中台</a>
                   <a class="dropdown-item mb-3" href="case-data.html">数据中台</a>
                   <a class="dropdown-item mb-3" href="case-ai.html">AI中台</a>
                 </div>
+
                 <div class="col-5 col-lg-5">
-                  <h6 class="dropdown-header mb-5">研发平台</h6>
+                  <h6 class="dropdown-header mb-5">咨询服务</h6>
                   <a class="dropdown-item mb-3" href="case-devops.html">研发效能平台<br>(DevOps)</a>
                   <a class="dropdown-item mb-3" href="case-tech.html">基础技术平台<br>(Tech)</a>
                 </div>
+
                 <div class="col-3 col-lg-3">
                   <h6 class="dropdown-header mb-5">产品支持</h6>
                   <a class="dropdown-item mb-3" href="tech-doc.html">技术文档</a>
                   <a class="dropdown-item mb-3" href="blog-post.html">更新日志</a>
                   <a class="dropdown-item mb-3" href="blog-showcase.html">文档下载</a>
                 </div>
+
               </div>
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarSolution" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">解决方案</a>
+            <a class="nav-link dropdown-toggle" id="navbarSolution" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">产品系列</a>
+            
             <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarSolution">
               <div class="list-group list-group-flush">
+
+                 <a class="list-group-item" href="solution-digitalloom.html">
+                  <div class="icon icon-sm text-primary">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <polygon points="0 0 24 0 24 24 0 24"></polygon>
+                        <path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z" fill="#335EEA" opacity="0.3"></path>
+                        <rect fill="#335EEA" x="6" y="11" width="9" height="2" rx="1"></rect>
+                        <rect fill="#335EEA" x="6" y="15" width="5" height="2" rx="1"></rect>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="ml-4">
+                    <h6 class="font-weight-bold text-uppercase text-primary mb-0">数智织机</h6>
+                    <p class="font-size-sm text-gray-700 mb-0">中小服装制造数字化产品</p>
+                  </div>
+                  <span class="badge badge-pill badge-primary-soft ml-auto">1.0.0</span>
+                </a>
+
                 <a class="list-group-item" href="solution1.html">
                   <div class="icon icon-sm text-primary">
                     <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -61,6 +85,7 @@
                     <p class="font-size-sm text-gray-700 mb-0">电商零售行业解决方案</p>
                   </div>
                 </a>
+
                 <a class="list-group-item" href="solution2.html">
                   <div class="icon icon-sm text-primary">
                     <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -76,23 +101,9 @@
                     <p class="font-size-sm text-gray-700 mb-0">珠宝行业分销及零售的行业方案</p>
                   </div>
                 </a>
-                <a class="list-group-item" href="solution3.html">
-                  <div class="icon icon-sm text-primary">
-                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <polygon points="0 0 24 0 24 24 0 24"></polygon>
-                        <path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z" fill="#335EEA" opacity="0.3"></path>
-                        <rect fill="#335EEA" x="6" y="11" width="9" height="2" rx="1"></rect>
-                        <rect fill="#335EEA" x="6" y="15" width="5" height="2" rx="1"></rect>
-                      </g>
-                    </svg>
-                  </div>
-                  <div class="ml-4">
-                    <h6 class="font-weight-bold text-uppercase text-primary mb-0">智慧制造方案</h6>
-                    <p class="font-size-sm text-gray-700 mb-0">智慧制造行业技术方案</p>
-                  </div>
-                  <span class="badge badge-pill badge-primary-soft ml-auto">1.0.0</span>
-                </a>
+
+               
+                
               </div>
             </div>
           </li>
