@@ -1,4 +1,4 @@
-(function() {
+(function () {
   // 内联HTML模板，避免CORS问题
   const headerTemplate = `
     <div class="container ">
@@ -201,15 +201,70 @@
       if (headerEl) {
         headerEl.innerHTML = headerTemplate;
       }
-      
+
       // 注入footer
       const footerEl = document.getElementById('footer');
       if (footerEl) {
         footerEl.innerHTML = footerTemplate;
       }
+
+      // 初始化导航固定功能
+      initStickyNavbar();
     } catch (e) {
       console.warn('Layout injection failed:', e);
     }
+  }
+
+  // 导航固定功能
+  function initStickyNavbar() {
+    const navbar = document.getElementById('header');
+    if (!navbar) return;
+
+    // 添加过渡效果的样式
+    navbar.style.transition = 'all 0.3s ease-in-out';
+
+    let lastScrollTop = 0;
+    let ticking = false;
+
+    function updateNavbar() {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+      if (scrollTop > 50) {
+        // 滚动超过50px时,固定导航
+        navbar.classList.add('navbar-stuck');
+        navbar.style.position = 'fixed';
+        navbar.style.top = '0';
+        navbar.style.left = '0';
+        navbar.style.right = '0';
+        navbar.style.zIndex = '1030';
+        navbar.style.boxShadow = '0 0.125rem 0.25rem rgba(0, 0, 0, 0.075)';
+      } else {
+        // 回到顶部时,恢复原样
+        navbar.classList.remove('navbar-stuck');
+        navbar.style.position = '';
+        navbar.style.top = '';
+        navbar.style.left = '';
+        navbar.style.right = '';
+        navbar.style.zIndex = '';
+        navbar.style.boxShadow = '';
+      }
+
+      lastScrollTop = scrollTop;
+      ticking = false;
+    }
+
+    function onScroll() {
+      if (!ticking) {
+        window.requestAnimationFrame(updateNavbar);
+        ticking = true;
+      }
+    }
+
+    // 监听滚动事件
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    // 初始检查
+    updateNavbar();
   }
 
   if (document.readyState === 'loading') {
