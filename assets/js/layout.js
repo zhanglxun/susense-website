@@ -21,24 +21,20 @@
             
             <div class="dropdown-menu dropdown-menu-lg" aria-labelledby="navbarPages">
               <div class="row no-gutters">
-                <div class="col-4 col-lg-4">
-                  <h6 class="dropdown-header mb-5">解决方案</h6>
-                  <a class="dropdown-item mb-3" href="case-business.html">业务中台</a>
-                  <a class="dropdown-item mb-3" href="case-data.html">数据中台</a>
-                  <a class="dropdown-item mb-3" href="case-ai.html">AI中台</a>
+                <div class="col-6 col-lg-6">
+                  <h5 class="dropdown-header mb-5">解决方案</h5>
+                  <a class="dropdown-item mb-3" href="case-business.html">健康管理</a>
+                  <a class="dropdown-item mb-3" href="case-data.html">数字疗法</a>
+                  <a class="dropdown-item mb-3" href="case-ai.html">数据解决方案</a>
+                  <a class="dropdown-item mb-3" href="case-ai.html">智慧零售</a>
                 </div>
 
-                <div class="col-5 col-lg-5">
-                  <h6 class="dropdown-header mb-5">咨询服务</h6>
-                  <a class="dropdown-item mb-3" href="case-devops.html">研发效能平台<br>(DevOps)</a>
-                  <a class="dropdown-item mb-3" href="case-tech.html">基础技术平台<br>(Tech)</a>
-                </div>
-
-                <div class="col-3 col-lg-3">
-                  <h6 class="dropdown-header mb-5">产品支持</h6>
-                  <a class="dropdown-item mb-3" href="tech-doc.html">技术文档</a>
-                  <a class="dropdown-item mb-3" href="blog-post.html">更新日志</a>
-                  <a class="dropdown-item mb-3" href="blog-showcase.html">文档下载</a>
+                <div class="col-6 col-lg-6">
+                  <h5 class="dropdown-header mb-5">咨询服务</h5>
+                  <a class="dropdown-item mb-3" href="case-devops.html">数字化咨询服务</a>
+                  <a class="dropdown-item mb-3" href="case-tech.html">系统开发设计</a>
+                  <a class="dropdown-item mb-3" href="case-tech.html">用户体验设计</a>
+                  <a class="dropdown-item mb-3" href="case-tech.html">AI应用开发</a>
                 </div>
 
               </div>
@@ -81,8 +77,8 @@
                     </svg>
                   </div>
                   <div class="ml-4">
-                    <h6 class="font-weight-bold text-uppercase text-primary mb-0">电商零售方案</h6>
-                    <p class="font-size-sm text-gray-700 mb-0">电商零售行业解决方案</p>
+                    <h6 class="font-weight-bold text-uppercase text-primary mb-0">TempoSnap时影</h6>
+                    <p class="font-size-sm text-gray-700 mb-0">捕捉光影的瞬间，重塑你的万象。</p>
                   </div>
                 </a>
 
@@ -97,8 +93,8 @@
                     </svg>
                   </div>
                   <div class="ml-4">
-                    <h6 class="font-weight-bold text-uppercase text-primary mb-0">珠宝分销行业方案</h6>
-                    <p class="font-size-sm text-gray-700 mb-0">珠宝行业分销及零售的行业方案</p>
+                    <h6 class="font-weight-bold text-uppercase text-primary mb-0">TempoFlow节律</h6>
+                    <p class="font-size-sm text-gray-700 mb-0">听懂身体的节奏，找回你的心流。</p>
                   </div>
                 </a>
 
