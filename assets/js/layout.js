@@ -3,7 +3,7 @@
   const headerTemplate = `
     <div class="container ">
       <a class="navbar-brand" href="index.html">
-        <img src="assets/img/brand-su.svg" class="navbar-brand-img" alt="速睿森视">
+        <img src="assets/img/brand-su.png" class="navbar-brand-img" alt="速睿森视">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -82,7 +82,7 @@
                   </div>
                 </a>
 
-                <a class="list-group-item" href="solution2.html">
+                <a class="list-group-item" href="product-tempoflow.html">
                   <div class="icon icon-sm text-primary">
                     <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg">
                       <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
