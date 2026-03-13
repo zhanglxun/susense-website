@@ -23,7 +23,7 @@
                 <div class="col-6 col-lg-6">
                   <h6 class="dropdown-header text-uppercase text-primary">服务</h6>
                   <div class="list-group list-group-flush">
-                    <a class="list-group-item" href="#">
+                    <a class="list-group-item" href="service-software.html">
                       <div class="icon icon-sm text-primary">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M13.325 3.05L8.667 20.432l1.932.518 4.658-17.382-1.932-.518zM7.612 18.36l1.36-1.448-4.16-3.912 4.16-3.91-1.36-1.45-5.5 5.36 5.5 5.36zM16.388 18.36l5.5-5.36-5.5-5.36-1.36 1.45 4.16 3.91-4.16 3.912 1.36 1.448z" fill="#335EEA"/>
