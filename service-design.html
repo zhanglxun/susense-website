@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="速睿森视提供App/小程序UI设计、用户研究、设计系统搭建及产品体验优化服务。设计与开发一体，AI辅助提速，每个决策有数据支撑。">
+  <link rel="stylesheet" href="assets/fonts/Feather/feather.css">
+  <link rel="stylesheet" href="assets/libs/aos/dist/aos.css">
+  <link rel="stylesheet" href="assets/css/theme.min.css">
+  <title>产品体验设计 — 用户研究驱动的UI/UX设计服务 | 速睿森视</title>
+  <style>
+    .hero-design {
+      background: linear-gradient(135deg, #f8f9ff 0%, #eef1ff 100%);
+    }
+
+    .manifesto-band {
+      background: #1b1f3b;
+    }
+
+    .manifesto-band .display-quote {
+      font-size: 2.8rem;
+      font-weight: 800;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+    }
+
+    .process-step {
+      position: relative;
+    }
+
+    .process-step:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      top: 22px;
+      right: -50%;
+      width: 100%;
+      height: 2px;
+      background: #e2e8f0;
+      z-index: 0;
+    }
+
+    .process-dot {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: #335EEA;
+      color: #fff;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .service-tile {
+      border-left: 3px solid #335EEA;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .service-tile:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, .08) !important;
+    }
+
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: #335EEA;
+      line-height: 1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="header" class="navbar navbar-expand-lg navbar-light bg-white border-bottom"></nav>
+
+
+  <!-- HERO
+  ================================================== -->
+  <section class="hero-design pt-4 pt-md-11 pb-10 pb-md-12">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-12 col-md-6 col-lg-5 order-md-1" data-aos="fade-up">
+          <span class="badge badge-pill badge-primary-soft mb-3">
+            <span class="h6 text-uppercase">产品体验设计</span>
+          </span>
+          <h1 class="display-3 text-center text-md-left">
+            好看是起点，<br>
+            <span class="text-primary">好用才是终点</span>
+          </h1>
+          <p class="lead text-center text-md-left text-muted mb-6 mb-lg-8">
+            以用户研究为起点，以真实交付为终点。<br>
+            设计与开发一体，AI 提速出稿，每一个设计决策都有据可查。
+          </p>
+          <div class="text-center text-md-left">
+            <a href="contact.html" class="btn btn-primary shadow lift mr-1">
+              预约免费体验诊断 <i class="fe fe-arrow-right d-none d-md-inline ml-3"></i>
+            </a>
+            <a href="news.html" class="btn btn-primary-soft lift">
+              查看案例
+            </a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-7 order-md-2 mt-8 mt-md-0" data-aos="fade-up" data-aos-delay="150">
+          <!-- 双屏展示：桌面 + 移动端 -->
+          <div class="position-relative text-center">
+            <img src="assets/img/screenshots/desktop/dashkit-alt.jpg" class="img-fluid rounded shadow-lg"
+              style="max-width: 80%; border: 6px solid #fff;" alt="产品设计桌面端">
+            <img src="assets/img/screenshots/desktop/dashkit.jpg" class="img-fluid rounded shadow position-absolute"
+              style="width: 36%; bottom: -5%; right: 0; border: 4px solid #fff;" data-aos="fade-left"
+              data-aos-delay="300" alt="产品设计移动端">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- STATS STRIP
+  ================================================== -->
+  <section class="py-6 bg-white border-top border-bottom">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-6 col-md-3 mb-4 mb-md-0">
+          <div class="stat-number">50<span class="h4 text-primary">+</span></div>
+          <p class="text-muted small mb-0 mt-1">落地项目</p>
+        </div>
+        <div class="col-6 col-md-3 mb-4 mb-md-0">
+          <div class="stat-number">0</div>
+          <p class="text-muted small mb-0 mt-1">设计稿被「做不了」打折</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-number">3</div>
+          <p class="text-muted small mb-0 mt-1">核心行业深度经验</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-number">100<span class="h4 text-primary">%</span></div>
+          <p class="text-muted small mb-0 mt-1">设计决策有据可查</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 三大优势 — 交错双栏
+  ================================================== -->
+  <section class="py-8 py-md-11">
+    <div class="container">
+
+      <div class="row justify-content-center mb-9">
+        <div class="col-12 col-md-10 col-lg-7 text-center" data-aos="fade-up">
+          <span class="badge badge-pill badge-primary-soft mb-3">
+            <span class="h6 text-uppercase">核心优势</span>
+          </span>
+          <h2 class="font-weight-bold">为什么和我们做设计不一样</h2>
+        </div>
+      </div>
+
+      <!-- 优势 1：设计+开发一体 -->
+      <div class="row align-items-center mb-10 mb-md-12" data-aos="fade-up">
+        <div class="col-12 col-md-6 order-md-2">
+          <div class="pl-md-6">
+            <div class="d-inline-flex align-items-center justify-content-center bg-primary-soft rounded-circle mb-4"
+              style="width:56px;height:56px;">
+              <i class="fe fe-layers text-primary" style="font-size:1.5rem;"></i>
+            </div>
+            <h3 class="font-weight-bold">设计稿不会在开发时「打折」</h3>
+            <p class="text-muted font-size-lg mb-0">
+              大多数设计公司交稿后，开发会说「这个做不了」。我们没有这个问题——设计师和工程师在同一个团队里，设计时就考虑技术可行性，交付时 100% 还原。
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 order-md-1 mt-6 mt-md-0">
+          <div class="bg-light rounded p-5" style="border-left: 4px solid #335EEA;">
+            <div class="d-flex align-items-start mb-4">
+              <span class="badge badge-danger mr-3 mt-1 flex-shrink-0">传统模式</span>
+              <p class="text-muted mb-0 small">设计师出稿 → 交给开发 → "这个动效做不了" → 设计降级 → 用户体验打折</p>
+            </div>
+            <div class="d-flex align-items-start">
+              <span class="badge badge-success mr-3 mt-1 flex-shrink-0">我们的方式</span>
+              <p class="text-muted mb-0 small">设计师 + 工程师同步协作 → 设计可行性实时确认 → 交付 100% 还原 → 体验如预期</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 优势 2：用户研究驱动 -->
+      <div class="row align-items-center mb-10 mb-md-12" data-aos="fade-up">
+        <div class="col-12 col-md-6">
+          <div class="pr-md-6">
+            <div class="d-inline-flex align-items-center justify-content-center bg-primary-soft rounded-circle mb-4"
+              style="width:56px;height:56px;">
+              <i class="fe fe-users text-primary" style="font-size:1.5rem;"></i>
+            </div>
+            <h3 class="font-weight-bold">每个决策背后，都有用户数据</h3>
+            <p class="text-muted font-size-lg mb-0">
+              不靠拍脑袋，靠研究和数据。我们在动笔前做用户访谈，在交付后做可用性测试。为什么这样排版、为什么这个流程——每一步都说得清楚。
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 mt-6 mt-md-0">
+          <div class="row">
+            <div class="col-6 mb-4">
+              <div class="card border-0 bg-light p-4 h-100">
+                <i class="fe fe-mic text-primary mb-2" style="font-size:1.2rem;"></i>
+                <p class="small font-weight-bold mb-0">用户访谈</p>
+              </div>
+            </div>
+            <div class="col-6 mb-4">
+              <div class="card border-0 bg-light p-4 h-100">
+                <i class="fe fe-search text-primary mb-2" style="font-size:1.2rem;"></i>
+                <p class="small font-weight-bold mb-0">竞品分析</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card border-0 bg-light p-4 h-100">
+                <i class="fe fe-check-square text-primary mb-2" style="font-size:1.2rem;"></i>
+                <p class="small font-weight-bold mb-0">可用性测试</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card border-0 bg-light p-4 h-100">
+                <i class="fe fe-bar-chart-2 text-primary mb-2" style="font-size:1.2rem;"></i>
+                <p class="small font-weight-bold mb-0">A/B 测试</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 优势 3：AI 提速 -->
+      <div class="row align-items-center" data-aos="fade-up">
+        <div class="col-12 col-md-6 order-md-2">
+          <div class="pl-md-6">
+            <div class="d-inline-flex align-items-center justify-content-center bg-primary-soft rounded-circle mb-4"
+              style="width:56px;height:56px;">
+              <i class="fe fe-zap text-primary" style="font-size:1.5rem;"></i>
+            </div>
+            <h3 class="font-weight-bold">AI 提速，更快给到你方向</h3>
+            <p class="text-muted font-size-lg mb-0">
+              我们在内部用 AI 工具加速设计流程——更快出方向稿、更快生成多套方案供选择、更快迭代细节。你得到的，是同样质量下更快的响应速度。
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 order-md-1 mt-6 mt-md-0">
+          <img src="assets/img/illustrations/illustration-4.png" class="img-fluid" alt="AI辅助设计">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- 宣言区 — 深色全宽
+  ================================================== -->
+  <section class="manifesto-band py-10 py-md-12">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-12 col-md-10 col-lg-8" data-aos="fade-up">
+          <p class="text-white-50 text-uppercase letter-spacing-lg small mb-4">我们的设计哲学</p>
+          <p class="display-quote text-white mb-6">
+            先研究，再动笔。<br>
+            先原型，再视觉。
+          </p>
+          <p class="text-white-50 font-size-lg mb-0">
+            不做黑盒设计。每个阶段有明确交付物，设计稿在 Figma 实时共享，<br class="d-none d-md-inline">
+            重大决策前先对齐用户目标和业务指标。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 设计流程 — 横向时间轴
+  ================================================== -->
+  <section class="py-8 py-md-11 bg-light">
+    <div class="container">
+
+      <div class="row justify-content-center mb-8">
+        <div class="col-12 col-md-10 col-lg-7 text-center" data-aos="fade-up">
+          <span class="badge badge-pill badge-primary-soft mb-3">
+            <span class="h6 text-uppercase">设计流程</span>
+          </span>
+          <h2 class="font-weight-bold">从研究到交付，六个阶段</h2>
+        </div>
+      </div>
+
+      <div class="row text-center" data-aos="fade-up" data-aos-delay="100">
+        <div class="col process-step">
+          <div class="process-dot">1</div>
+          <h6 class="font-weight-bold">研究诊断</h6>
+          <p class="text-muted small mb-0">用户访谈<br>竞品分析</p>
+        </div>
+        <div class="col process-step">
+          <div class="process-dot">2</div>
+          <h6 class="font-weight-bold">方向提案</h6>
+          <p class="text-muted small mb-0">信息架构<br>设计方向</p>
+        </div>
+        <div class="col process-step">
+          <div class="process-dot">3</div>
+          <h6 class="font-weight-bold">原型确认</h6>
+          <p class="text-muted small mb-0">交互原型<br>流程验证</p>
+        </div>
+        <div class="col process-step">
+          <div class="process-dot">4</div>
+          <h6 class="font-weight-bold">视觉精稿</h6>
+          <p class="text-muted small mb-0">高保真设计<br>组件规范</p>
+        </div>
+        <div class="col process-step">
+          <div class="process-dot">5</div>
+          <h6 class="font-weight-bold">开发交付</h6>
+          <p class="text-muted small mb-0">标注文档<br>设计规范</p>
+        </div>
+        <div class="col process-step">
+          <div class="process-dot" style="background:#6c757d;">6</div>
+          <h6 class="font-weight-bold text-muted">测试验证</h6>
+          <p class="text-muted small mb-0">可用性测试<br>迭代优化</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- 服务内容
+  ================================================== -->
+  <section class="py-8 py-md-11">
+    <div class="container">
+
+      <div class="row justify-content-center mb-8">
+        <div class="col-12 col-md-10 col-lg-7 text-center" data-aos="fade-up">
+          <span class="badge badge-pill badge-primary-soft mb-3">
+            <span class="h6 text-uppercase">服务内容</span>
+          </span>
+          <h2 class="font-weight-bold">我们能交付什么</h2>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-12 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="0">
+          <div class="card service-tile shadow-light-lg h-100 border-0 pl-5 py-5 pr-5">
+            <div class="d-flex align-items-center mb-3">
+              <i class="fe fe-smartphone text-primary mr-3" style="font-size:1.4rem;"></i>
+              <h4 class="font-weight-bold mb-0">App / 小程序 UI 设计</h4>
+            </div>
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-2"><i class="fe fe-check text-primary mr-2 small"></i>移动端界面交互设计（iOS / Android / 微信小程序）</li>
+              <li class="mb-2"><i class="fe fe-check text-primary mr-2 small"></i>信息架构梳理、流程图与线框图</li>
+              <li class="mb-2"><i class="fe fe-check text-primary mr-2 small"></i>高保真视觉设计与交互说明</li>
+              <li><i class="fe fe-check text-primary mr-2 small"></i>适配多端、多尺寸的完整设计交付</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="100">
+          <div class="card service-tile shadow-light-lg h-100 border-0 pl-5 py-5 pr-5">
+            <div class="d-flex align-items-center mb-3">
+              <i class="fe fe-mic text-primary mr-3" style="font-size:1.4rem;"></i>
+              <h4 class="font-weight-bold mb-0">用户研究与体验测试</h4>
+            </div>
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-2"><i class="fe fe-check text-primary mr-2 small"></i>用户访谈与问卷设计</li>
+              <li class="mb-2"><i class="fe fe-check text-primary mr-2 small"></i>竞品分析与体验评估</li>
+              <li class="mb-2"><i class="fe fe-check text-primary mr-2 small"></i>可用性测试（真实用户 + 任务场景）</li>
+              <li><i class="fe fe-check text-primary mr-2 small"></i>设计前诊断报告：找出体验瓶颈</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="200">
+          <div class="card service-tile shadow-light-lg h-100 border-0 pl-5 py-5 pr-5">
+            <div class="d-flex align-items-center mb-3">
+              <i class="fe fe-grid text-primary mr-3" style="font-size:1.4rem;"></i>
+              <h4 class="font-weight-bold mb-0">设计系统 / 组件库</h4>
+            </div>
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-2"><i class="fe fe-check text-primary mr-2 small"></i>从零搭建统一的视觉语言和设计规范</li>
+              <li class="mb-2"><i class="fe fe-check text-primary mr-2 small"></i>Figma 可复用组件库，供研发直接使用</li>
+              <li class="mb-2"><i class="fe fe-check text-primary mr-2 small"></i>支持长期产品迭代，降低维护成本</li>
+              <li><i class="fe fe-check text-primary mr-2 small"></i>适合多产品线、需要设计协同的团队</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="300">
+          <div class="card service-tile shadow-light-lg h-100 border-0 pl-5 py-5 pr-5">
+            <div class="d-flex align-items-center mb-3">
+              <i class="fe fe-refresh-cw text-primary mr-3" style="font-size:1.4rem;"></i>
+              <h4 class="font-weight-bold mb-0">现有产品体验优化</h4>
+            </div>
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-2"><i class="fe fe-check text-primary mr-2 small"></i>对已上线产品进行体验诊断</li>
+              <li class="mb-2"><i class="fe fe-check text-primary mr-2 small"></i>找出转化漏斗、操作路径中的关键问题</li>
+              <li class="mb-2"><i class="fe fe-check text-primary mr-2 small"></i>提出有优先级的改版建议，可分阶段实施</li>
+              <li><i class="fe fe-check text-primary mr-2 small"></i>适合「功能都有但留存差」的产品</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 适合的场景
+  ================================================== -->
+  <section class="py-8 py-md-11 bg-light border-top">
+    <div class="container">
+
+      <div class="row justify-content-center mb-8">
+        <div class="col-12 col-md-10 col-lg-7 text-center" data-aos="fade-up">
+          <span class="badge badge-pill badge-primary-soft mb-3">
+            <span class="h6 text-uppercase">适合的场景</span>
+          </span>
+          <h2 class="font-weight-bold">你处于哪个阶段？</h2>
+          <p class="font-size-lg text-muted mb-0">不同阶段，我们有不同的切入方式。</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 mb-5" data-aos="fade-up" data-aos-delay="0">
+          <div class="card border-0 shadow-light-lg h-100 p-5">
+            <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center mb-4"
+              style="width:48px;height:48px;">
+              <i class="fe fe-plus text-white"></i>
+            </div>
+            <h5 class="font-weight-bold">0 到 1，新产品</h5>
+            <p class="text-muted small mb-0">从产品定义到完整设计，一起把想法做成可交付的原型，确认可行后再开发</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-5" data-aos="fade-up" data-aos-delay="100">
+          <div class="card border-0 shadow-light-lg h-100 p-5">
+            <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center mb-4"
+              style="width:48px;height:48px;">
+              <i class="fe fe-alert-circle text-white"></i>
+            </div>
+            <h5 class="font-weight-bold">体验差，要改版</h5>
+            <p class="text-muted small mb-0">诊断问题在哪，给出有优先级的改版方案，不乱改、改到点上</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-5" data-aos="fade-up" data-aos-delay="200">
+          <div class="card border-0 shadow-light-lg h-100 p-5">
+            <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center mb-4"
+              style="width:48px;height:48px;">
+              <i class="fe fe-layout text-white"></i>
+            </div>
+            <h5 class="font-weight-bold">开发前先出原型</h5>
+            <p class="text-muted small mb-0">快速出可交互原型，让决策者和开发团队早确认，避免开发后反复返工</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mb-5" data-aos="fade-up" data-aos-delay="300">
+          <div class="card border-0 shadow-light-lg h-100 p-5">
+            <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center mb-4"
+              style="width:48px;height:48px;">
+              <i class="fe fe-repeat text-white"></i>
+            </div>
+            <h5 class="font-weight-bold">研发团队设计外包</h5>
+            <p class="text-muted small mb-0">作为长期设计支持，配合研发节奏持续出稿，无缝接入你的开发流程</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- 案例
+  ================================================== -->
+  <section class="py-8 py-md-11">
+    <div class="container">
+
+      <div class="row justify-content-center mb-8">
+        <div class="col-12 col-md-10 col-lg-7 text-center" data-aos="fade-up">
+          <span class="badge badge-pill badge-primary-soft mb-3">
+            <span class="h6 text-uppercase">案例参考</span>
+          </span>
+          <h2 class="font-weight-bold">我们做过的设计项目</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-4 mb-5" data-aos="fade-up" data-aos-delay="0">
+          <div class="card shadow-light-lg h-100">
+            <div class="card-body p-6">
+              <div class="badge badge-pill badge-primary-soft mb-4">
+                <span class="h6 text-uppercase">医疗健康</span>
+              </div>
+              <h4 class="font-weight-bold">某医疗健康平台</h4>
+              <p class="text-muted mb-0">患者端 App 体验重设计，覆盖预约、就诊、报告全流程，以用户研究驱动改版方向。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+          <div class="card shadow-light-lg h-100">
+            <div class="card-body p-6">
+              <div class="badge badge-pill badge-primary-soft mb-4">
+                <span class="h6 text-uppercase">智能制造</span>
+              </div>
+              <h4 class="font-weight-bold">某制造企业</h4>
+              <p class="text-muted mb-0">工厂巡检小程序 UI 设计，面向一线工人的操作场景，极简流程设计，降低学习成本。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5" data-aos="fade-up" data-aos-delay="200">
+          <div class="card shadow-light-lg h-100">
+            <div class="card-body p-6">
+              <div class="badge badge-pill badge-primary-soft mb-4">
+                <span class="h6 text-uppercase">教育</span>
+              </div>
+              <h4 class="font-weight-bold">某教育机构</h4>
+              <p class="text-muted mb-0">学员管理后台设计系统搭建，统一视觉规范与组件库，支持多校区长期迭代。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mt-2">
+        <div class="col-auto">
+          <a href="news.html" class="btn btn-primary-soft lift">
+            查看更多案例 <i class="fe fe-arrow-right ml-2"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- SHAPE -->
+  <div class="position-relative">
+    <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+      <svg viewBox="0 0 2880 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 60 720 60 720 60H0V120H2880V0H2160Z"
+          fill="currentColor" />
+      </svg>
+    </div>
+  </div>
+
+
+  <!-- CTA
+  ================================================== -->
+  <section class="py-8 py-md-10 bg-dark" style="background-image: url('assets/img/icons/pattern-1.svg');">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8 text-center">
+
+          <span class="badge badge-pill badge-gray-700-soft mb-3">
+            <span class="h6 text-uppercase">先看看你的产品</span>
+          </span>
+
+          <h1 class="display-4 text-white mb-4">
+            不知道问题在哪？<br>我们来帮你找
+          </h1>
+
+          <p class="font-size-lg text-muted mb-8">
+            上传截图或分享产品链接，我们提供免费的初步体验评估，<br class="d-none d-md-inline">
+            帮你判断现在最值得解决的体验问题是什么。
+          </p>
+
+          <a href="contact.html" class="btn btn-primary lift mr-2">
+            预约免费体验诊断 <i class="fe fe-arrow-right ml-2"></i>
+          </a>
+          <a href="news.html" class="btn btn-primary-desat lift">
+            查看案例
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer id="footer" class="py-8 py-md-11 bg-dark"></footer>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+  <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/libs/aos/dist/aos.js"></script>
+  <script src="assets/js/theme.min.js"></script>
+  <script src="assets/js/layout.js"></script>
+
+</body>
+
+</html>

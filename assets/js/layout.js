@@ -34,7 +34,7 @@
                         <p class="font-size-sm text-gray-700 mb-0">企业级系统定制开发</p>
                       </div>
                     </a>
-                    <a class="list-group-item" href="#">
+                    <a class="list-group-item" href="service-design.html">
                       <div class="icon icon-sm text-primary">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="#335EEA" opacity="0.3"/>
@@ -46,7 +46,7 @@
                         <p class="font-size-sm text-gray-700 mb-0">APP与产品体验优化</p>
                       </div>
                     </a>
-                    <a class="list-group-item" href="#">
+                    <a class="list-group-item" href="service-ai.html">
                       <div class="icon icon-sm text-primary">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M21 10.12h-6.78l2.74-2.82c-2.73-2.7-7.15-2.8-9.88-.1-2.73 2.71-2.73 7.08 0 9.79s7.15 2.71 9.88 0C18.32 15.65 19 14.08 19 12.1h2c0 1.98-.88 4.55-2.64 6.29-3.51 3.48-9.21 3.48-12.72 0-3.5-3.47-3.53-9.11-.02-12.58s9.14-3.47 12.65 0L21 3v7.12z" fill="#335EEA"/>
@@ -174,9 +174,9 @@
         <div class="col-6 col-md-4 col-lg-2">
           <h6 class="font-weight-bold text-uppercase text-gray-700">服务</h6>
           <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
-            <li class="mb-3"><a href="#" class="text-reset">软件系统开发</a></li>
-            <li class="mb-3"><a href="#" class="text-reset">产品体验设计</a></li>
-            <li class="mb-3"><a href="#" class="text-reset">AI 赋能服务</a></li>
+            <li class="mb-3"><a href="service-software.html" class="text-reset">软件系统开发</a></li>
+            <li class="mb-3"><a href="service-design.html" class="text-reset">产品体验设计</a></li>
+            <li class="mb-3"><a href="service-ai.html" class="text-reset">AI 赋能服务</a></li>
           </ul>
         </div>
         <div class="col-6 col-md-4 col-lg-2">
