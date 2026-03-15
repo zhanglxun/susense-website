@@ -63,7 +63,7 @@
                 <div class="col-6 col-lg-6">
                   <h6 class="dropdown-header text-uppercase text-primary">方案</h6>
                   <div class="list-group list-group-flush">
-                    <a class="list-group-item" href="#">
+                    <a class="list-group-item" href="solution-healthcare.html">
                       <div class="icon icon-sm text-primary">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z" fill="#335EEA"/>
@@ -182,7 +182,7 @@
         <div class="col-6 col-md-4 col-lg-2">
           <h6 class="font-weight-bold text-uppercase text-gray-700">方案</h6>
           <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
-            <li class="mb-3"><a href="#" class="text-reset">医疗健康</a></li>
+            <li class="mb-3"><a href="solution-healthcare.html" class="text-reset">医疗健康</a></li>
             <li class="mb-3"><a href="#" class="text-reset">智能制造</a></li>
             <li class="mb-3"><a href="#" class="text-reset">注意力培训</a></li>
           </ul>
