@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" fill="none">
+  <!-- Background -->
+  <rect width="520" height="380" fill="#f8faff" rx="16"/>
+
+  <!-- === 桌面客户端 (左上) === -->
+  <rect x="20" y="30" width="160" height="110" rx="10" fill="white" stroke="#e8f0fe" stroke-width="1.5"/>
+  <!-- Laptop screen -->
+  <rect x="36" y="44" width="128" height="78" rx="6" fill="#1e2d4a"/>
+  <!-- Game on screen -->
+  <rect x="40" y="48" width="120" height="70" rx="4" fill="#1e2d4a"/>
+  <!-- Game grid -->
+  <rect x="48" y="55" width="26" height="26" rx="4" fill="#335EEA" opacity="0.9"/>
+  <rect x="80" y="55" width="26" height="26" rx="4" fill="#e8f0fe" opacity="0.3"/>
+  <rect x="112" y="55" width="26" height="26" rx="4" fill="#335EEA" opacity="0.5"/>
+  <rect x="48" y="87" width="26" height="26" rx="4" fill="#e8f0fe" opacity="0.3"/>
+  <rect x="80" y="87" width="26" height="26" rx="4" fill="#0ea84f" opacity="0.8"/>
+  <rect x="112" y="87" width="26" height="26" rx="4" fill="#e8f0fe" opacity="0.3"/>
+  <!-- Star on active tile -->
+  <path d="M61 68 L63 64 L65 68 L69 68 L66 71 L67 75 L63 72 L59 75 L60 71 L57 68Z" fill="white" opacity="0.9"/>
+  <!-- Score bar -->
+  <rect x="40" y="115" width="120" height="6" rx="3" fill="rgba(255,255,255,0.1)"/>
+  <rect x="40" y="115" width="78" height="6" rx="3" fill="#335EEA"/>
+  <!-- Laptop base -->
+  <rect x="28" y="122" width="144" height="6" rx="3" fill="#d0d9f0"/>
+  <rect x="52" y="128" width="96" height="4" rx="2" fill="#c0cce0"/>
+  <!-- Label -->
+  <rect x="50" y="142" width="70" height="9" rx="4.5" fill="#335EEA" opacity="0.15"/>
+  <rect x="56" y="144" width="58" height="5" rx="2.5" fill="#335EEA" opacity="0.7"/>
+
+  <!-- === 移动端 (右上) === -->
+  <rect x="340" y="30" width="160" height="110" rx="10" fill="white" stroke="#e8f0fe" stroke-width="1.5"/>
+  <!-- Phone frame -->
+  <rect x="390" y="40" width="60" height="100" rx="10" fill="#1e2d4a"/>
+  <rect x="393" y="50" width="54" height="84" rx="4" fill="#2d3f6a"/>
+  <!-- Notch -->
+  <rect x="408" y="43" width="24" height="6" rx="3" fill="#335EEA" opacity="0.4"/>
+  <!-- App content -->
+  <rect x="397" y="54" width="46" height="10" rx="3" fill="#335EEA"/>
+  <rect x="399" y="57" width="30" height="4" rx="2" fill="rgba(255,255,255,0.8)"/>
+  <!-- Progress circles -->
+  <circle cx="408" cy="80" r="10" fill="none" stroke="#335EEA" stroke-width="3" stroke-dasharray="44 20"/>
+  <circle cx="408" cy="80" r="10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="3"/>
+  <rect x="404" y="78" width="8" height="4" rx="2" fill="white" opacity="0.8"/>
+  <!-- Mini stats -->
+  <rect x="423" y="72" width="18" height="5" rx="2.5" fill="rgba(255,255,255,0.5)"/>
+  <rect x="423" y="80" width="14" height="5" rx="2.5" fill="rgba(255,255,255,0.3)"/>
+  <!-- Bottom nav -->
+  <rect x="397" y="122" width="46" height="10" rx="0" fill="#1a2340"/>
+  <circle cx="411" cy="127" r="3" fill="#335EEA"/>
+  <circle cx="420" cy="127" r="3" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="429" cy="127" r="3" fill="rgba(255,255,255,0.3)"/>
+  <!-- Label -->
+  <rect x="356" y="142" width="70" height="9" rx="4.5" fill="#335EEA" opacity="0.15"/>
+  <rect x="362" y="144" width="58" height="5" rx="2.5" fill="#335EEA" opacity="0.7"/>
+
+  <!-- === 云服务 / 中央服务器 (中间) === -->
+  <rect x="195" y="50" width="130" height="80" rx="12" fill="white" stroke="#335EEA" stroke-width="1.5"/>
+  <!-- Cloud icon -->
+  <circle cx="240" cy="82" r="18" fill="#e8f0fe"/>
+  <circle cx="260" cy="78" r="22" fill="#e8f0fe"/>
+  <circle cx="275" cy="85" r="14" fill="#e8f0fe"/>
+  <rect x="228" y="88" width="56" height="16" rx="0" fill="#e8f0fe"/>
+  <!-- Server lines inside cloud -->
+  <rect x="238" y="76" width="28" height="3" rx="1.5" fill="#335EEA" opacity="0.6"/>
+  <rect x="238" y="82" width="22" height="3" rx="1.5" fill="#335EEA" opacity="0.4"/>
+  <rect x="238" y="88" width="25" height="3" rx="1.5" fill="#335EEA" opacity="0.4"/>
+  <!-- Label under -->
+  <rect x="212" y="114" width="96" height="8" rx="4" fill="#335EEA" opacity="0.12"/>
+  <rect x="220" y="116" width="80" height="4" rx="2" fill="#335EEA" opacity="0.6"/>
+
+  <!-- === 连接线 左→中 === -->
+  <path d="M180 88 L195 88" stroke="#335EEA" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="180" cy="88" r="3" fill="#335EEA"/>
+  <circle cx="195" cy="88" r="3" fill="#335EEA"/>
+  <!-- 中→右 -->
+  <path d="M325 88 L340 88" stroke="#335EEA" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="325" cy="88" r="3" fill="#335EEA"/>
+  <circle cx="340" cy="88" r="3" fill="#335EEA"/>
+
+  <!-- === 管理后台 (下方中间) === -->
+  <rect x="160" y="220" width="200" height="110" rx="10" fill="white" stroke="#e8f0fe" stroke-width="1.5"/>
+  <!-- Monitor frame -->
+  <rect x="172" y="232" width="176" height="88" rx="6" fill="#f0f4ff"/>
+  <!-- Screen content - sidebar + main -->
+  <rect x="172" y="232" width="40" height="88" rx="6" fill="#1e2d4a"/>
+  <!-- Sidebar items -->
+  <rect x="178" y="244" width="28" height="6" rx="3" fill="rgba(255,255,255,0.5)"/>
+  <rect x="178" y="256" width="28" height="6" rx="3" fill="rgba(255,255,255,0.3)"/>
+  <rect x="178" y="268" width="24" height="6" rx="3" fill="rgba(255,255,255,0.3)"/>
+  <rect x="178" y="280" width="26" height="6" rx="3" fill="rgba(255,255,255,0.3)"/>
+  <rect x="178" y="292" width="20" height="6" rx="3" fill="rgba(255,255,255,0.3)"/>
+  <!-- Main content -->
+  <!-- Mini bar chart -->
+  <rect x="222" y="285" width="8" height="22" rx="2" fill="#335EEA" opacity="0.6"/>
+  <rect x="234" y="278" width="8" height="29" rx="2" fill="#335EEA" opacity="0.7"/>
+  <rect x="246" y="268" width="8" height="39" rx="2" fill="#335EEA" opacity="0.85"/>
+  <rect x="258" y="258" width="8" height="49" rx="2" fill="#335EEA"/>
+  <rect x="270" y="272" width="8" height="35" rx="2" fill="#335EEA" opacity="0.7"/>
+  <!-- Line overlay -->
+  <path d="M226 285 L238 278 L250 262 L262 252 L274 267" stroke="#82a8f4" stroke-width="1.5" fill="none"/>
+  <!-- Stat mini cards top -->
+  <rect x="218" y="236" width="36" height="18" rx="4" fill="white" stroke="#e8f0fe" stroke-width="1"/>
+  <rect x="221" y="239" width="18" height="5" rx="2.5" fill="#a0aec0"/>
+  <rect x="221" y="246" width="12" height="5" rx="2.5" fill="#335EEA"/>
+  <rect x="260" y="236" width="36" height="18" rx="4" fill="white" stroke="#e8f0fe" stroke-width="1"/>
+  <rect x="263" y="239" width="18" height="5" rx="2.5" fill="#a0aec0"/>
+  <rect x="263" y="246" width="14" height="5" rx="2.5" fill="#0ea84f"/>
+  <!-- Monitor stand -->
+  <rect x="245" y="320" width="30" height="6" rx="3" fill="#d0d9f0"/>
+  <rect x="235" y="326" width="50" height="4" rx="2" fill="#c0cce0"/>
+  <!-- Label -->
+  <rect x="195" y="338" width="70" height="9" rx="4.5" fill="#335EEA" opacity="0.15"/>
+  <rect x="201" y="340" width="58" height="5" rx="2.5" fill="#335EEA" opacity="0.7"/>
+
+  <!-- 连接线 中→下 -->
+  <path d="M260 130 L260 220" stroke="#335EEA" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="260" cy="130" r="3" fill="#335EEA"/>
+  <circle cx="260" cy="220" r="3" fill="#335EEA"/>
+
+  <!-- 脑波设备 (右下角) === -->
+  <rect x="380" y="230" width="120" height="90" rx="10" fill="white" stroke="#e8f0fe" stroke-width="1.5"/>
+  <!-- EEG headset icon -->
+  <path d="M420 260 Q420 248 430 248 Q440 248 440 260" stroke="#335EEA" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <circle cx="418" cy="263" r="5" fill="#335EEA" opacity="0.2" stroke="#335EEA" stroke-width="1.5"/>
+  <circle cx="442" cy="263" r="5" fill="#335EEA" opacity="0.2" stroke="#335EEA" stroke-width="1.5"/>
+  <!-- EEG wave -->
+  <path d="M392 278 L398 278 L402 268 L407 288 L412 272 L416 278 L420 278 L424 270 L428 284 L432 278 L436 278 L440 273 L444 282 L448 278 L455 278 L458 278"
+        stroke="#335EEA" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Attention meter -->
+  <rect x="392" y="292" width="96" height="10" rx="5" fill="#e8f0fe"/>
+  <rect x="392" y="292" width="72" height="10" rx="5" fill="#335EEA" opacity="0.8"/>
+  <circle cx="464" cy="297" r="6" fill="white" stroke="#335EEA" stroke-width="2"/>
+  <!-- Label -->
+  <rect x="400" y="310" width="60" height="5" rx="2.5" fill="#335EEA" opacity="0.5"/>
+
+  <!-- 连接线 后台→脑波 -->
+  <path d="M360 275 L380 275" stroke="#335EEA" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="360" cy="275" r="3" fill="#335EEA"/>
+  <circle cx="380" cy="275" r="3" fill="#335EEA"/>
+
+  <!-- 数据流动指示箭头 -->
+  <path d="M256 172 L256 186" stroke="#335EEA" stroke-width="1.5" marker-end="url(#arr)"/>
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6Z" fill="#335EEA" opacity="0.7"/>
+    </marker>
+  </defs>
+</svg>

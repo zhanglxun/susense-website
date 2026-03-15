@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" fill="none">
+  <!-- Monitor frame -->
+  <rect x="10" y="10" width="860" height="470" rx="12" fill="#1a2340" stroke="#2d3a5a" stroke-width="2"/>
+  <rect x="18" y="18" width="844" height="454" rx="8" fill="#f8faff"/>
+
+  <!-- Left sidebar -->
+  <rect x="18" y="18" width="170" height="454" rx="8" fill="#1e2d4a"/>
+  <rect x="34" y="34" width="80" height="16" rx="8" fill="rgba(255,255,255,0.3)"/>
+  <rect x="34" y="54" width="50" height="8" rx="4" fill="rgba(255,255,255,0.15)"/>
+  <!-- Active menu section -->
+  <rect x="26" y="80" width="154" height="28" rx="6" fill="#335EEA" opacity="0.3"/>
+  <rect x="40" y="88" width="80" height="10" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <rect x="34" y="118" width="154" height="32" rx="6" fill="#335EEA"/>
+  <rect x="48" y="128" width="90" height="10" rx="5" fill="white"/>
+  <rect x="42" y="160" width="110" height="10" rx="5" fill="rgba(255,255,255,0.4)"/>
+  <rect x="42" y="178" width="90" height="10" rx="5" fill="rgba(255,255,255,0.3)"/>
+  <rect x="42" y="196" width="100" height="10" rx="5" fill="rgba(255,255,255,0.3)"/>
+  <rect x="42" y="214" width="80" height="10" rx="5" fill="rgba(255,255,255,0.3)"/>
+  <rect x="42" y="232" width="95" height="10" rx="5" fill="rgba(255,255,255,0.3)"/>
+  <rect x="42" y="250" width="85" height="10" rx="5" fill="rgba(255,255,255,0.3)"/>
+  <rect x="26" y="275" width="90" height="10" rx="5" fill="rgba(255,255,255,0.2)"/>
+  <rect x="42" y="293" width="100" height="10" rx="5" fill="rgba(255,255,255,0.3)"/>
+  <rect x="42" y="311" width="80" height="10" rx="5" fill="rgba(255,255,255,0.3)"/>
+  <rect x="42" y="329" width="90" height="10" rx="5" fill="rgba(255,255,255,0.3)"/>
+  <rect x="34" y="450" width="60" height="8" rx="4" fill="rgba(255,255,255,0.2)"/>
+
+  <!-- Main content -->
+  <!-- Header -->
+  <rect x="196" y="26" width="140" height="12" rx="6" fill="#2d3748"/>
+  <rect x="196" y="42" width="80" height="8" rx="4" fill="#a0aec0"/>
+  <rect x="760" y="26" width="84" height="28" rx="6" fill="#335EEA" opacity="0.15"/>
+  <rect x="770" y="34" width="64" height="10" rx="5" fill="#335EEA"/>
+
+  <!-- Chart area -->
+  <rect x="190" y="66" width="622" height="260" rx="8" fill="white" stroke="#e8f0fe" stroke-width="1.5"/>
+  <!-- Y axis labels -->
+  <rect x="200" y="90" width="50" height="7" rx="3.5" fill="#e0e8f0"/>
+  <rect x="200" y="140" width="45" height="7" rx="3.5" fill="#e0e8f0"/>
+  <rect x="200" y="190" width="50" height="7" rx="3.5" fill="#e0e8f0"/>
+  <rect x="200" y="240" width="45" height="7" rx="3.5" fill="#e0e8f0"/>
+  <!-- Grid lines -->
+  <line x1="258" y1="86" x2="800" y2="86" stroke="#f0f4ff" stroke-width="1"/>
+  <line x1="258" y1="136" x2="800" y2="136" stroke="#f0f4ff" stroke-width="1"/>
+  <line x1="258" y1="186" x2="800" y2="186" stroke="#f0f4ff" stroke-width="1"/>
+  <line x1="258" y1="236" x2="800" y2="236" stroke="#f0f4ff" stroke-width="1"/>
+  <line x1="258" y1="286" x2="800" y2="286" stroke="#f0f4ff" stroke-width="1"/>
+
+  <!-- Bars ascending -->
+  <rect x="268" y="308" width="32" height="0" rx="2" fill="#335EEA" opacity="0.8"/>
+  <rect x="268" y="305" width="32" height="3" rx="2" fill="#335EEA"/>
+
+  <rect x="330" y="295" width="32" height="13" rx="2" fill="#335EEA" opacity="0.8"/>
+  <rect x="392" y="278" width="32" height="30" rx="2" fill="#335EEA" opacity="0.8"/>
+  <rect x="454" y="248" width="32" height="60" rx="2" fill="#335EEA" opacity="0.85"/>
+  <rect x="516" y="210" width="32" height="98" rx="2" fill="#335EEA" opacity="0.85"/>
+  <rect x="578" y="176" width="32" height="132" rx="2" fill="#335EEA" opacity="0.9"/>
+  <rect x="640" y="140" width="32" height="168" rx="2" fill="#335EEA" opacity="0.9"/>
+  <rect x="702" y="100" width="32" height="208" rx="2" fill="#335EEA"/>
+  <rect x="764" y="288" width="32" height="20" rx="2" fill="#335EEA" opacity="0.6"/>
+
+  <!-- Line chart overlay (area fill) -->
+  <path d="M284 308 L346 300 L408 286 L470 258 L532 224 L594 188 L656 150 L718 110 L780 296 L780 308 Z"
+        fill="#335EEA" opacity="0.06"/>
+  <path d="M284 308 L346 300 L408 286 L470 258 L532 224 L594 188 L656 150 L718 110 L780 296"
+        stroke="#82a8f4" stroke-width="2" fill="none" stroke-dasharray="0"/>
+
+  <!-- Dots on line -->
+  <circle cx="284" cy="308" r="4" fill="#82a8f4" stroke="white" stroke-width="2"/>
+  <circle cx="346" cy="300" r="4" fill="#82a8f4" stroke="white" stroke-width="2"/>
+  <circle cx="408" cy="286" r="4" fill="#82a8f4" stroke="white" stroke-width="2"/>
+  <circle cx="470" cy="258" r="4" fill="#82a8f4" stroke="white" stroke-width="2"/>
+  <circle cx="532" cy="224" r="4" fill="#82a8f4" stroke="white" stroke-width="2"/>
+  <circle cx="594" cy="188" r="4" fill="#82a8f4" stroke="white" stroke-width="2"/>
+  <circle cx="656" cy="150" r="4" fill="#82a8f4" stroke="white" stroke-width="2"/>
+  <circle cx="718" cy="110" r="6" fill="#335EEA" stroke="white" stroke-width="2"/>
+  <circle cx="780" cy="296" r="4" fill="#82a8f4" stroke="white" stroke-width="2"/>
+
+  <!-- Tooltip on 2024 bar -->
+  <rect x="698" y="66" width="110" height="56" rx="8" fill="#1a2340" opacity="0.92"/>
+  <rect x="706" y="76" width="40" height="8" rx="4" fill="rgba(255,255,255,0.9)"/>
+  <rect x="706" y="90" width="8" height="8" rx="4" fill="#335EEA"/>
+  <rect x="718" y="92" width="60" height="6" rx="3" fill="rgba(255,255,255,0.7)"/>
+  <rect x="706" y="104" width="8" height="8" rx="4" fill="#82a8f4"/>
+  <rect x="718" y="106" width="50" height="6" rx="3" fill="rgba(255,255,255,0.7)"/>
+  <!-- Tooltip arrow -->
+  <path d="M738 122 L742 130 L746 122Z" fill="#1a2340" opacity="0.92"/>
+
+  <!-- X axis labels -->
+  <rect x="261" y="316" width="28" height="7" rx="3.5" fill="#e0e8f0"/>
+  <rect x="323" y="316" width="28" height="7" rx="3.5" fill="#e0e8f0"/>
+  <rect x="385" y="316" width="28" height="7" rx="3.5" fill="#e0e8f0"/>
+  <rect x="447" y="316" width="28" height="7" rx="3.5" fill="#e0e8f0"/>
+  <rect x="509" y="316" width="28" height="7" rx="3.5" fill="#e0e8f0"/>
+  <rect x="571" y="316" width="28" height="7" rx="3.5" fill="#e0e8f0"/>
+  <rect x="633" y="316" width="28" height="7" rx="3.5" fill="#e0e8f0"/>
+  <rect x="695" y="316" width="28" height="7" rx="3.5" fill="#335EEA" opacity="0.5"/>
+  <rect x="757" y="316" width="28" height="7" rx="3.5" fill="#e0e8f0"/>
+
+  <!-- Legend -->
+  <rect x="550" y="330" width="14" height="10" rx="2" fill="#335EEA"/>
+  <rect x="568" y="333" width="50" height="7" rx="3.5" fill="#a0aec0"/>
+  <rect x="630" y="330" width="14" height="4" rx="2" fill="#82a8f4"/>
+  <circle cx="637" cy="336" r="4" fill="#82a8f4"/>
+  <rect x="648" y="333" width="50" height="7" rx="3.5" fill="#a0aec0"/>
+
+  <!-- Export button -->
+  <rect x="752" y="326" width="56" height="20" rx="6" fill="#f0f4ff"/>
+  <rect x="760" y="332" width="40" height="8" rx="4" fill="#335EEA" opacity="0.6"/>
+
+  <!-- Data table -->
+  <rect x="190" y="338" width="622" height="30" rx="4" fill="#f0f4ff"/>
+  <rect x="200" y="347" width="50" height="8" rx="4" fill="#335EEA" opacity="0.7"/>
+  <rect x="360" y="347" width="70" height="8" rx="4" fill="#335EEA" opacity="0.7"/>
+  <rect x="550" y="347" width="60" height="8" rx="4" fill="#335EEA" opacity="0.7"/>
+  <rect x="730" y="347" width="40" height="8" rx="4" fill="#335EEA" opacity="0.7"/>
+
+  <!-- Table rows -->
+  <rect x="190" y="368" width="622" height="30" rx="0" fill="white"/>
+  <rect x="190" y="397" width="622" height="1" fill="#f0f4ff"/>
+  <rect x="200" y="378" width="28" height="8" rx="4" fill="#2d3748"/>
+  <rect x="360" y="378" width="80" height="8" rx="4" fill="#2d3748"/>
+  <rect x="550" y="378" width="60" height="8" rx="4" fill="#2d3748"/>
+  <rect x="730" y="374" width="50" height="14" rx="7" fill="#e8f0fe"/>
+  <rect x="736" y="378" width="38" height="6" rx="3" fill="#335EEA" opacity="0.6"/>
+
+  <rect x="190" y="399" width="622" height="30" rx="0" fill="#fafbff"/>
+  <rect x="190" y="428" width="622" height="1" fill="#f0f4ff"/>
+  <rect x="200" y="409" width="28" height="8" rx="4" fill="#2d3748"/>
+  <rect x="360" y="409" width="80" height="8" rx="4" fill="#2d3748"/>
+  <rect x="550" y="409" width="60" height="8" rx="4" fill="#2d3748"/>
+  <rect x="730" y="405" width="50" height="14" rx="7" fill="#e8f0fe"/>
+  <rect x="736" y="409" width="38" height="6" rx="3" fill="#335EEA" opacity="0.6"/>
+
+  <rect x="190" y="430" width="622" height="30" rx="0" fill="white"/>
+  <rect x="200" y="440" width="28" height="8" rx="4" fill="#2d3748"/>
+  <rect x="360" y="440" width="80" height="8" rx="4" fill="#2d3748"/>
+  <rect x="550" y="440" width="60" height="8" rx="4" fill="#2d3748"/>
+  <rect x="730" y="436" width="50" height="14" rx="7" fill="#e8f0fe"/>
+  <rect x="736" y="440" width="38" height="6" rx="3" fill="#335EEA" opacity="0.6"/>
+
+  <!-- Monitor stand -->
+  <rect x="390" y="484" width="100" height="16" rx="4" fill="#d0d9f0"/>
+  <rect x="350" y="498" width="180" height="12" rx="6" fill="#c0cce0"/>
+</svg>

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 340" fill="none">
+  <!-- Laptop outer frame -->
+  <rect x="20" y="10" width="540" height="290" rx="12" fill="#1a2340" stroke="#2d3a5a" stroke-width="2"/>
+  <!-- Screen bezel -->
+  <rect x="28" y="18" width="524" height="274" rx="8" fill="#f8faff"/>
+  <!-- Camera dot -->
+  <circle cx="290" cy="22" r="3" fill="#2d3a5a"/>
+
+  <!-- Top bar -->
+  <rect x="28" y="18" width="524" height="32" rx="8" fill="#1e2d4a"/>
+  <rect x="28" y="38" width="524" height="12" fill="#1e2d4a"/>
+  <!-- Traffic lights -->
+  <circle cx="50" cy="34" r="5" fill="#e74a3b" opacity="0.8"/>
+  <circle cx="66" cy="34" r="5" fill="#f6c23e" opacity="0.8"/>
+  <circle cx="82" cy="34" r="5" fill="#0ea84f" opacity="0.8"/>
+  <!-- Title bar -->
+  <rect x="220" y="28" width="140" height="12" rx="6" fill="rgba(255,255,255,0.15)"/>
+
+  <!-- Left sidebar - level nav -->
+  <rect x="28" y="50" width="100" height="242" rx="0" fill="#f0f4ff"/>
+  <rect x="28" y="50" width="100" height="242" fill="#eef2ff"/>
+  <!-- Level list -->
+  <rect x="36" y="62" width="68" height="8" rx="4" fill="#335EEA" opacity="0.5"/>
+  <rect x="36" y="62" width="84" height="24" rx="6" fill="#335EEA"/>
+  <rect x="44" y="70" width="40" height="7" rx="3.5" fill="white" opacity="0.9"/>
+  <rect x="36" y="92" width="84" height="24" rx="6" fill="rgba(255,255,255,0.7)"/>
+  <rect x="44" y="100" width="40" height="7" rx="3.5" fill="#335EEA" opacity="0.7"/>
+  <rect x="36" y="122" width="84" height="24" rx="6" fill="rgba(255,255,255,0.7)"/>
+  <rect x="44" y="130" width="40" height="7" rx="3.5" fill="#335EEA" opacity="0.7"/>
+  <rect x="36" y="152" width="84" height="24" rx="6" fill="rgba(255,255,255,0.7)"/>
+  <rect x="44" y="160" width="40" height="7" rx="3.5" fill="#335EEA" opacity="0.7"/>
+  <!-- Stars completed -->
+  <path d="M98 70 L100 66 L102 70 L106 70 L103 73 L104 77 L100 74 L96 77 L97 73 L94 70Z" fill="#f6c23e" opacity="0.9"/>
+  <path d="M98 100 L100 96 L102 100 L106 100 L103 103 L104 107 L100 104 L96 107 L97 103 L94 100Z" fill="#f6c23e" opacity="0.5"/>
+
+  <!-- Main game area -->
+  <rect x="128" y="50" width="324" height="242" fill="white"/>
+
+  <!-- Game header row -->
+  <rect x="128" y="50" width="324" height="40" fill="#335EEA"/>
+  <!-- Game title -->
+  <rect x="140" y="61" width="90" height="10" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <!-- Score -->
+  <rect x="350" y="57" width="50" height="10" rx="5" fill="rgba(255,255,255,0.3)"/>
+  <rect x="356" y="71" width="38" height="8" rx="4" fill="rgba(255,255,255,0.6)"/>
+  <!-- Lives -->
+  <circle cx="418" cy="62" r="6" fill="rgba(255,255,255,0.2)"/>
+  <path d="M415 62 Q416 60 418 62 Q420 60 421 62 L418 65Z" fill="white" opacity="0.8"/>
+  <circle cx="434" cy="62" r="6" fill="rgba(255,255,255,0.2)"/>
+  <path d="M431 62 Q432 60 434 62 Q436 60 437 62 L434 65Z" fill="white" opacity="0.8"/>
+  <circle cx="450" cy="62" r="6" fill="rgba(255,255,255,0.2)"/>
+  <path d="M447 62 Q448 60 450 62 Q452 60 453 62 L450 65Z" fill="white" opacity="0.8"/>
+
+  <!-- Maze game grid -->
+  <!-- Outer walls -->
+  <rect x="148" y="104" width="180" height="160" rx="4" fill="#f0f4ff" stroke="#e8f0fe" stroke-width="1"/>
+  <!-- Maze walls -->
+  <rect x="148" y="104" width="8" height="160" fill="#335EEA" opacity="0.15"/>
+  <rect x="320" y="104" width="8" height="160" fill="#335EEA" opacity="0.15"/>
+  <rect x="148" y="104" width="180" height="8" fill="#335EEA" opacity="0.15"/>
+  <rect x="148" y="256" width="180" height="8" fill="#335EEA" opacity="0.15"/>
+  <!-- Maze inner walls -->
+  <rect x="168" y="112" width="8" height="60" rx="2" fill="#335EEA" opacity="0.25"/>
+  <rect x="196" y="136" width="60" height="8" rx="2" fill="#335EEA" opacity="0.25"/>
+  <rect x="236" y="112" width="8" height="48" rx="2" fill="#335EEA" opacity="0.25"/>
+  <rect x="176" y="188" width="72" height="8" rx="2" fill="#335EEA" opacity="0.25"/>
+  <rect x="168" y="196" width="8" height="52" rx="2" fill="#335EEA" opacity="0.25"/>
+  <rect x="220" y="212" width="48" height="8" rx="2" fill="#335EEA" opacity="0.25"/>
+  <rect x="260" y="172" width="8" height="76" rx="2" fill="#335EEA" opacity="0.25"/>
+  <rect x="284" y="144" width="8" height="56" rx="2" fill="#335EEA" opacity="0.25"/>
+  <rect x="284" y="220" width="36" height="8" rx="2" fill="#335EEA" opacity="0.25"/>
+  <!-- Path trace (solution path) -->
+  <path d="M160 245 L160 200 L200 200 L200 152 L244 152 L244 200 L268 200 L268 152 L312 152 L312 244"
+        stroke="#335EEA" stroke-width="2" fill="none" stroke-dasharray="5 3" opacity="0.4"/>
+  <!-- Player character (cute mouse/star) -->
+  <circle cx="160" cy="248" r="8" fill="#335EEA"/>
+  <path d="M157 245 L160 241 L163 245Z" fill="white" opacity="0.9"/>
+  <circle cx="157" cy="247" r="2" fill="white" opacity="0.7"/>
+  <circle cx="163" cy="247" r="2" fill="white" opacity="0.7"/>
+  <!-- Goal (cheese/star at end) -->
+  <circle cx="312" cy="247" r="8" fill="#f6c23e"/>
+  <path d="M309 247 L312 243 L315 247 L319 247 L316 250 L317 254 L312 251 L308 254 L309 250 L306 247Z"
+        fill="white" opacity="0.9"/>
+
+  <!-- Right panel - stats -->
+  <rect x="452" y="50" width="92" height="242" fill="#fafbff"/>
+  <!-- Progress -->
+  <rect x="460" y="62" width="76" height="10" rx="5" fill="#e8f0fe"/>
+  <rect x="460" y="62" width="52" height="10" rx="5" fill="#335EEA" opacity="0.7"/>
+  <rect x="460" y="78" width="60" height="8" rx="4" fill="#a0aec0" opacity="0.5"/>
+  <!-- Timer -->
+  <circle cx="498" cy="122" r="28" fill="white" stroke="#e8f0fe" stroke-width="2"/>
+  <circle cx="498" cy="122" r="22" fill="none" stroke="#335EEA" stroke-width="3" stroke-dasharray="92 46" stroke-linecap="round"/>
+  <circle cx="498" cy="122" r="22" fill="none" stroke="#e8f0fe" stroke-width="3" stroke-dasharray="138 0"/>
+  <rect x="492" y="119" width="12" height="6" rx="3" fill="#335EEA"/>
+  <!-- Difficulty stars -->
+  <rect x="460" y="164" width="76" height="8" rx="4" fill="#a0aec0" opacity="0.4"/>
+  <path d="M468 182 L470 178 L472 182 L476 182 L473 185 L474 189 L470 186 L466 189 L467 185 L464 182Z" fill="#f6c23e"/>
+  <path d="M482 182 L484 178 L486 182 L490 182 L487 185 L488 189 L484 186 L480 189 L481 185 L478 182Z" fill="#f6c23e"/>
+  <path d="M496 182 L498 178 L500 182 L504 182 L501 185 L502 189 L498 186 L494 189 L495 185 L492 182Z" fill="#e8f0fe"/>
+  <!-- Hint button -->
+  <rect x="462" y="202" width="72" height="24" rx="8" fill="#335EEA" opacity="0.12"/>
+  <rect x="472" y="210" width="52" height="8" rx="4" fill="#335EEA" opacity="0.6"/>
+  <!-- Next level button -->
+  <rect x="462" y="234" width="72" height="24" rx="8" fill="#335EEA"/>
+  <rect x="474" y="242" width="48" height="8" rx="4" fill="white" opacity="0.9"/>
+
+  <!-- Progress bar bottom -->
+  <rect x="128" y="268" width="324" height="24" fill="#f0f4ff"/>
+  <rect x="136" y="275" width="60" height="8" rx="4" fill="#a0aec0" opacity="0.6"/>
+  <rect x="296" y="272" width="148" height="14" rx="3" fill="#e8f0fe"/>
+  <rect x="296" y="272" width="96" height="14" rx="3" fill="#335EEA" opacity="0.5"/>
+  <rect x="296" y="274" width="96" height="10" rx="2" fill="#335EEA"/>
+
+  <!-- Laptop base -->
+  <rect x="20" y="300" width="540" height="16" rx="0" fill="#1a2340"/>
+  <rect x="20" y="314" width="540" height="8" rx="4" fill="#2d3a5a"/>
+  <rect x="230" y="314" width="120" height="6" rx="3" fill="#1a2340"/>
+</svg>

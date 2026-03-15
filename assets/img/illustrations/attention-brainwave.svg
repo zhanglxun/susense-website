@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 280" fill="none">
+  <!-- Background card -->
+  <rect width="560" height="280" rx="16" fill="#f8faff"/>
+
+  <!-- ===Left: EEG headset on head === -->
+  <!-- Head silhouette -->
+  <ellipse cx="130" cy="150" rx="55" ry="65" fill="#e8f0fe"/>
+  <!-- Face features (minimal) -->
+  <ellipse cx="117" cy="148" rx="6" ry="8" fill="white" opacity="0.8"/>
+  <ellipse cx="143" cy="148" rx="6" ry="8" fill="white" opacity="0.8"/>
+  <circle cx="117" cy="150" r="3" fill="#335EEA" opacity="0.6"/>
+  <circle cx="143" cy="150" r="3" fill="#335EEA" opacity="0.6"/>
+  <path d="M120 168 Q130 176 140 168" stroke="#335EEA" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <!-- Neck -->
+  <rect x="116" y="210" width="28" height="20" rx="4" fill="#e8f0fe"/>
+  <!-- Shoulders -->
+  <path d="M80 240 Q90 226 116 224 L144 224 Q162 226 180 240Z" fill="#e8f0fe"/>
+
+  <!-- EEG headband -->
+  <path d="M80 132 Q82 90 130 86 Q178 90 180 132" stroke="#1e2d4a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- EEG sensor nodes -->
+  <circle cx="80" cy="132" r="9" fill="#1e2d4a"/>
+  <circle cx="80" cy="132" r="5" fill="#335EEA"/>
+  <circle cx="180" cy="132" r="9" fill="#1e2d4a"/>
+  <circle cx="180" cy="132" r="5" fill="#335EEA"/>
+  <circle cx="130" cy="86" r="9" fill="#1e2d4a"/>
+  <circle cx="130" cy="86" r="5" fill="#335EEA"/>
+  <!-- Sensor on forehead -->
+  <circle cx="130" cy="114" r="7" fill="#335EEA" opacity="0.3"/>
+  <circle cx="130" cy="114" r="4" fill="#335EEA"/>
+  <!-- Signal pulses from sensors -->
+  <circle cx="80" cy="132" r="14" fill="none" stroke="#335EEA" stroke-width="1" opacity="0.4"/>
+  <circle cx="80" cy="132" r="20" fill="none" stroke="#335EEA" stroke-width="0.8" opacity="0.2"/>
+  <circle cx="180" cy="132" r="14" fill="none" stroke="#335EEA" stroke-width="1" opacity="0.4"/>
+  <circle cx="180" cy="132" r="20" fill="none" stroke="#335EEA" stroke-width="0.8" opacity="0.2"/>
+
+  <!-- Wireless signal icon -->
+  <path d="M105 68 Q130 58 155 68" stroke="#335EEA" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M115 58 Q130 50 145 58" stroke="#335EEA" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <circle cx="130" cy="52" r="3" fill="#335EEA" opacity="0.8"/>
+
+  <!-- Dashed line to right panel -->
+  <line x1="190" y1="148" x2="215" y2="148" stroke="#335EEA" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="215" cy="148" r="3" fill="#335EEA"/>
+
+  <!-- === Right: Data visualization panel === -->
+  <rect x="218" y="30" width="322" height="220" rx="12" fill="white" stroke="#e8f0fe" stroke-width="1.5"/>
+
+  <!-- Panel header -->
+  <rect x="218" y="30" width="322" height="36" rx="12" fill="#335EEA"/>
+  <rect x="218" y="48" width="322" height="18" fill="#335EEA"/>
+  <rect x="232" y="41" width="100" height="10" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <!-- Status dot -->
+  <circle cx="500" cy="48" r="5" fill="#0ea84f"/>
+  <circle cx="500" cy="48" r="9" fill="#0ea84f" opacity="0.2"/>
+  <rect x="460" y="44" width="34" height="8" rx="4" fill="rgba(255,255,255,0.5)"/>
+
+  <!-- Attention Level Gauge -->
+  <rect x="232" y="76" width="120" height="90" rx="8" fill="#f8faff" stroke="#e8f0fe" stroke-width="1"/>
+  <rect x="240" y="84" width="80" height="8" rx="4" fill="#a0aec0" opacity="0.6"/>
+  <!-- Semi-circle gauge -->
+  <path d="M248 148 A44 44 0 0 1 336 148" stroke="#e8f0fe" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M248 148 A44 44 0 0 1 320 118" stroke="#335EEA" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Gauge needle -->
+  <line x1="292" y1="148" x2="318" y2="122" stroke="#335EEA" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="292" cy="148" r="5" fill="#335EEA"/>
+  <!-- Value label -->
+  <rect x="272" y="152" width="40" height="12" rx="6" fill="#335EEA" opacity="0.1"/>
+  <rect x="278" y="155" width="28" height="6" rx="3" fill="#335EEA" opacity="0.8"/>
+  <!-- Scale labels -->
+  <rect x="242" y="150" width="16" height="5" rx="2.5" fill="#e74a3b" opacity="0.5"/>
+  <rect x="328" y="150" width="16" height="5" rx="2.5" fill="#0ea84f" opacity="0.5"/>
+
+  <!-- EEG Waveform chart -->
+  <rect x="364" y="76" width="164" height="90" rx="8" fill="#f8faff" stroke="#e8f0fe" stroke-width="1"/>
+  <rect x="372" y="84" width="60" height="8" rx="4" fill="#a0aec0" opacity="0.6"/>
+  <!-- Grid lines -->
+  <line x1="372" y1="108" x2="520" y2="108" stroke="#f0f4ff" stroke-width="1"/>
+  <line x1="372" y1="120" x2="520" y2="120" stroke="#f0f4ff" stroke-width="1"/>
+  <line x1="372" y1="132" x2="520" y2="132" stroke="#f0f4ff" stroke-width="1"/>
+  <!-- EEG wave - alpha waves -->
+  <path d="M372 120 L378 120 L381 108 L386 132 L391 112 L396 128 L400 120 L404 115 L408 125 L412 118 L416 122 L420 120 L424 112 L428 130 L432 114 L436 122 L440 120 L444 116 L448 124 L452 119 L456 121 L460 120 L465 110 L470 130 L475 115 L480 123 L484 120 L488 114 L492 126 L496 118 L500 120 L504 113 L508 127 L512 118 L516 121 L520 120"
+        stroke="#335EEA" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+  <!-- Second wave (beta - lighter) -->
+  <path d="M372 120 L376 116 L379 124 L382 118 L385 122 L388 119 L391 121 L394 117 L397 123 L400 120 L403 116 L406 124 L409 118 L412 122 L415 120 L418 116 L421 124 L424 119 L427 121 L430 117 L433 123 L436 120 L439 116 L442 124 L445 119 L448 121 L451 117 L454 123 L457 120 L460 116 L463 124 L466 119 L469 121 L472 117 L475 123 L478 120 L481 116 L484 124 L487 119 L490 121 L493 117 L496 123 L499 120 L502 116 L505 124 L508 119 L511 121 L514 117 L517 123 L520 120"
+        stroke="#82a8f4" stroke-width="1" fill="none" opacity="0.6"/>
+
+  <!-- 4 metric cards row -->
+  <rect x="232" y="178" width="68" height="56" rx="8" fill="#f8faff" stroke="#e8f0fe" stroke-width="1"/>
+  <rect x="240" y="186" width="40" height="6" rx="3" fill="#a0aec0" opacity="0.6"/>
+  <rect x="240" y="196" width="28" height="12" rx="4" fill="#335EEA" opacity="0.12"/>
+  <rect x="242" y="199" width="20" height="6" rx="3" fill="#335EEA"/>
+  <rect x="240" y="215" width="44" height="5" rx="2.5" fill="#0ea84f" opacity="0.5"/>
+  <rect x="312" y="178" width="68" height="56" rx="8" fill="#f8faff" stroke="#e8f0fe" stroke-width="1"/>
+  <rect x="320" y="186" width="40" height="6" rx="3" fill="#a0aec0" opacity="0.6"/>
+  <rect x="320" y="196" width="28" height="12" rx="4" fill="#f6c23e" opacity="0.15"/>
+  <rect x="322" y="199" width="20" height="6" rx="3" fill="#f6c23e" opacity="0.9"/>
+  <rect x="320" y="215" width="44" height="5" rx="2.5" fill="#f6c23e" opacity="0.5"/>
+  <rect x="392" y="178" width="68" height="56" rx="8" fill="#f8faff" stroke="#e8f0fe" stroke-width="1"/>
+  <rect x="400" y="186" width="40" height="6" rx="3" fill="#a0aec0" opacity="0.6"/>
+  <rect x="400" y="196" width="28" height="12" rx="4" fill="#0ea84f" opacity="0.12"/>
+  <rect x="402" y="199" width="20" height="6" rx="3" fill="#0ea84f"/>
+  <rect x="400" y="215" width="44" height="5" rx="2.5" fill="#0ea84f" opacity="0.5"/>
+  <rect x="472" y="178" width="60" height="56" rx="8" fill="#335EEA"/>
+  <rect x="480" y="186" width="40" height="6" rx="3" fill="rgba(255,255,255,0.5)"/>
+  <rect x="480" y="196" width="28" height="12" rx="4" fill="rgba(255,255,255,0.15)"/>
+  <rect x="482" y="199" width="20" height="6" rx="3" fill="white" opacity="0.9"/>
+  <rect x="480" y="215" width="36" height="5" rx="2.5" fill="rgba(255,255,255,0.5)"/>
+
+  <!-- Bottom session info bar -->
+  <rect x="232" y="244" width="300" height="4" rx="2" fill="#e8f0fe"/>
+  <rect x="232" y="244" width="195" height="4" rx="2" fill="#335EEA" opacity="0.6"/>
+  <rect x="232" y="252" width="80" height="6" rx="3" fill="#a0aec0" opacity="0.4"/>
+  <rect x="440" y="252" width="92" height="6" rx="3" fill="#a0aec0" opacity="0.4"/>
+</svg>
