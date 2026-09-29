@@ -74,7 +74,7 @@
                         <p class="font-size-sm text-gray-700 mb-0">健康管理与数字疗法</p>
                       </div>
                     </a>
-                    <a class="list-group-item" href="#">
+                    <a class="list-group-item" href="solution-digitalloom.html">
                       <div class="icon icon-sm text-primary">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z" fill="#335EEA"/>
@@ -143,29 +143,6 @@
         <div class="col-12 col-md-4 col-lg-3">
           <img src="assets/img/brand-su.svg" alt="..." class="footer-brand img-fluid mb-2">
           <p class="text-gray-700 mb-2">联系我们</p>
-          <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
-            <li class="list-inline-item list-social-item mr-3">
-              <a href="#" class="text-decoration-none">
-                <img src="assets/img/icons/social/instagram.svg" class="list-social-icon" alt="...">
-              </a>
-            </li>
-            <li class="list-inline-item list-social-item mr-3">
-              <a href="#" class="text-decoration-none">
-                <img src="assets/img/icons/social/facebook.svg" class="list-social-icon" alt="...">
-              </a>
-            </li>
-            <li class="list-inline-item list-social-item mr-3">
-              <a href="#" class="text-decoration-none">
-                <img src="assets/img/icons/social/twitter.svg" class="list-social-icon" alt="...">
-              </a>
-            </li>
-            <li class="list-inline-item list-social-item">
-              <a href="#" class="text-decoration-none">
-                <img src="assets/img/icons/social/pinterest.svg" class="list-social-icon" alt="...">
-              </a>
-            </li>
-          </ul>
-          <br>
           <p class="text-gray-700 mb-2"><span>13266680807</span></p>
           <p class="text-gray-700 mb-2">
             <a href="https://beian.miit.gov.cn" target="_blank">粤ICP备19105210号</a>
@@ -183,7 +160,7 @@
           <h6 class="font-weight-bold text-uppercase text-gray-700">方案</h6>
           <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
             <li class="mb-3"><a href="solution-healthcare.html" class="text-reset">医疗健康</a></li>
-            <li class="mb-3"><a href="#" class="text-reset">智能制造</a></li>
+            <li class="mb-3"><a href="solution-digitalloom.html" class="text-reset">智能制造</a></li>
             <li class="mb-3"><a href="solution-attention.html" class="text-reset">注意力培训</a></li>
           </ul>
         </div>

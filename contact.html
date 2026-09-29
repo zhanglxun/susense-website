@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="http://image.susense.cn/flickity-fade.css">
     <link rel="stylesheet" href="http://image.susense.cn/aos.css">
     <link rel="stylesheet" href="http://image.susense.cn/jarallax.css">
-    <link rel="stylesheet" href="http://image.susense.cn/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
 
     <!-- Theme CSS -->
     <link rel="stylesheet" href="http://image.susense.cn/theme.min.css">
@@ -144,7 +144,7 @@
           <div class="col-12 col-md-12 col-lg-10">
 
             <!-- Form -->
-            <form>
+            <form id="contactForm" novalidate>
               <div class="row">
                 <div class="col-12 col-md-6">
                   <div class="form-group mb-5">
@@ -155,7 +155,7 @@
                     </label>
 
                     <!-- Input -->
-                    <input type="text" class="form-control" id="contactName" placeholder="名称">
+                    <input type="text" class="form-control" id="contactName" required placeholder="名称">
 
                   </div>
                 </div>
@@ -168,7 +168,7 @@
                     </label>
 
                     <!-- Input -->
-                    <input type="email" class="form-control" id="contactEmail" placeholder="business@susense.cn">
+                    <input type="email" class="form-control" id="contactEmail" required placeholder="business@susense.cn">
 
                   </div>
                 </div>
@@ -183,7 +183,7 @@
                     </label>
 
                     <!-- Input -->
-                    <textarea class="form-control" id="contactMessage" rows="5" placeholder="Tell us what we can help you with!"></textarea>
+                    <textarea class="form-control" id="contactMessage" rows="5" required placeholder="请简要描述您的需求"></textarea>
 
                   </div>
                 </div>
@@ -241,5 +241,21 @@
     <script defer src="assets/js/theme.min.js"></script>
 
     <script defer src="assets/js/layout.js"></script>
-  </body>
+      <script>
+      // 无后端: 提交时用本地邮件客户端发送到 business@susense.cn
+      document.getElementById('contactForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        var name = document.getElementById('contactName').value.trim();
+        var email = document.getElementById('contactEmail').value.trim();
+        var msg = document.getElementById('contactMessage').value.trim();
+        if (!name || !msg || !/^\S+@\S+\.\S+$/.test(email)) {
+          alert('请填写名称、有效的电子邮件和需求描述');
+          return;
+        }
+        var subject = '官网咨询 - ' + name;
+        var body = msg + '\n\n联系人: ' + name + '\n邮箱: ' + email;
+        window.location.href = 'mailto:business@susense.cn?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+      });
+    </script>
+</body>
 </html>
