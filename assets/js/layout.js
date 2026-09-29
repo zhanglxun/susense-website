@@ -141,7 +141,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-4 col-lg-3">
-          <img src="assets/img/brand-su.svg" alt="..." class="footer-brand img-fluid mb-2">
+          <img src="assets/img/brand-su.svg" alt="速睿森视" class="footer-brand img-fluid mb-2" loading="lazy">
           <p class="text-gray-700 mb-2">联系我们</p>
           <p class="text-gray-700 mb-2"><span>13266680807</span></p>
           <p class="text-gray-700 mb-2">
