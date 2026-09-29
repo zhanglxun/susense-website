@@ -9,6 +9,7 @@
 
 - **技术栈**：纯静态 HTML/CSS/JS（Bootstrap 4.3.1 + jQuery）
 - **公共模板**：通过 `assets/js/layout.js` 注入 header 和 footer
+- **图片资源**：一律使用本地 `assets/`，不再引用外部图床；历史图床图片已下载到 `assets/img/remote/`（脚本 `scripts/localize-remote-images.sh`）
 - **本地服务**：`python -m http.server 8000`
 - **ICP备案**：粤ICP备19105210号
 - **联系电话**：13266680807
@@ -76,10 +77,10 @@
 | `news.html` | 客户案例 | ⚠️ 待完善 |
 | `solution-digitalloom.html` | 数智织机产品页 | ✅ 保留 |
 
-### 待清理页面（旧定位，可删除）
-- `case-business.html`, `case-data.html`, `case-ai.html`, `case-tech.html`, `case-devops.html`
-- `solution1.html`, `solution2.html`, `solution9.html`
-- `job.html`, `rental.html`, `cloud.html`, `coworking.html`（模板演示页）
+### 其他页面
+`service-software.html`、`service-design.html`、`service-ai.html`、`solution-healthcare.html`、`solution-attention.html`、`product-tempoflow.html`（暂无导航入口）、`tech-doc.html`、`verification.html`（域名验证文件，勿删）
+
+旧定位页面（case-*、solution1/2/9、模板演示页）已在 v0.3 删除。
 
 ---
 
